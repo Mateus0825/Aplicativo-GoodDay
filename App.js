@@ -5,7 +5,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import LoginScreen from './src/components/screens/LoginScreen';
 import AcessoScreen from './src/components/screens/AcessoScreen';
 
-const Stack = createNativeStackNavigator(); // <-- Corrigido aqui
+const Stack = createNativeStackNavigator(); 
 
 export default function App() {
   return (
